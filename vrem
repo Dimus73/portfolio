@@ -1,0 +1,44 @@
+/* Mask group */
+
+position: absolute;
+width: 111px;
+height: 111px;
+left: calc(50% - 111px/2 - 609.5px);
+top: 20px;
+
+filter: drop-shadow(6px 6px 20px rgba(0, 0, 0, 0.25));
+
+
+/* Ellipse 5 */
+
+position: absolute;
+width: 111px;
+height: 111px;
+left: 55px;
+top: 20px;
+
+background: #D9D9D9;
+
+
+/* image 4 */
+
+position: absolute;
+width: 114.04px;
+height: 114.22px;
+left: 51.96px;
+top: 20px;
+
+background: url(image.png);
+
+/* Rectangle 30 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 560px;
+height: 306px;
+left: 140px;
+top: 2248px;
+
+background: #FFFFFF;
+box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.25);
