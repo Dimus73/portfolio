@@ -10,6 +10,25 @@ html {
 	scroll-behavior:smooth
 }
 
+@media only screen and (max-width: 75em) {
+	html {
+			font-size:59%
+	}
+}
+
+@media only screen and (max-width: 56.25em) {
+	html {
+			font-size:56%
+	}
+}
+
+@media only screen and (min-width: 112.5em) {
+	html {
+			font-size:65%
+	}
+}
+
+
 
 body {
 	box-sizing: border-box;
@@ -58,8 +77,6 @@ a {
 	padding: 1rem 5rem;
 }
 
-
-
 .base-menu-logo-cont {
 	display: flex;
 	align-items: center;
@@ -103,6 +120,14 @@ a {
 	display: flex;
 }
 
+@media only screen and (max-width: 37.5em) {
+	.menu-links {
+			display:none
+	}
+}
+
+
+
 .menu-link {
 	padding: 2.2rem 3rem;
 	display: inline-block;
@@ -116,6 +141,72 @@ a {
 
 .menu-link:hover {
 	color:#1C3FC1
+}
+
+.header__main-ham-menu-cont {
+	display: none;
+	width: 3rem;
+	padding: 2.2rem 0;
+}
+
+@media only screen and (max-width: 37.5em) {
+	.header__main-ham-menu-cont {
+			display:block
+	}
+}
+
+/* Small menu */
+.small-menu {
+	background: #fff;
+	position: absolute;
+	width: 100%;
+	top: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: all .3s;
+	box-shadow: 0 5px 5px 0 rgba(0,0,0,.1);
+	-webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,.1);
+	-moz-box-shadow: 0 5px 5px 0 rgba(0,0,0,.1);
+}
+
+@media only screen and (max-width: 37.5em) {
+	.header__sm-menu--active {
+		visibility: visible;
+		opacity: 1;
+	}
+}
+
+.header__sm-menu-link a {
+	display: block;
+	text-decoration: none;
+	padding: 2.5rem 3rem;
+	font-size: 1.6rem;
+	color: #333;
+	text-align: right;
+	border-bottom: 1px solid #eee;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition:color .3s
+}
+
+.header__sm-menu-link a:hover {
+	color:#7843e9
+}
+
+.header__sm-menu-link:first-child a {
+	border-top:1px solid #eee
+}
+
+.header__sm-menu-link-last {
+	border-bottom:0
+}
+
+
+
+
+.d-none {
+	display: none;
 }
 
 /* Hero section */
@@ -149,6 +240,13 @@ a {
 	font-weight: 800;
 
 }
+
+@media only screen and (max-width: 37.5em) {
+	.heading-primary {
+			font-size:4.5rem
+	}
+}
+
 
 .hero-info {
 	margin: 3rem auto 0 auto;
@@ -257,12 +355,25 @@ h2 {
 	grid-gap: 10rem;
 }
 
+@media only screen and (max-width: 56.25em) {
+	.about__content {
+			grid-template-columns: 1fr;
+			grid-gap:8rem
+	}
+}
+
 .about__content-title {
 	font-weight: 700;
 	font-size: 2.8rem;
 	margin-bottom: 3rem;
 	text-transform: uppercase;
 
+}
+
+@media only screen and (max-width: 37.5em) {
+	.about__content-title {
+			font-size:2.4rem
+	}
 }
 
 .about__content-details{
@@ -331,6 +442,15 @@ h2 {
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 5rem;
 	margin-bottom: 11rem;
+}
+
+@media only screen and (max-width: 56.25em) {
+	.projects__row {
+			grid-template-columns: 1fr;
+			grid-gap: 2rem;
+			margin-bottom:8rem
+			text-align:center
+	}
 }
 
 .projects__row-img-cont {
