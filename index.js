@@ -32,7 +32,7 @@ for (let i = 0; i < headerSmallMenuLinks.length; i++) {
 const headerLogoContainer = document.querySelector('.base-menu-logo-cont')
 
 headerLogoContainer.addEventListener('click', () => {
-  location.href = '/'
+  location.href = './img/CV_Full Stack Developer_Dmitry Prigozhin_HR_col.pdf'
 })
 ;
 

@@ -89,8 +89,8 @@ a {
 }
 
 .base-menu-img-cont {
-	width: 10rem;
-	height: 10rem;
+	width: 8rem;
+	height: 8rem;
 	border-radius: 50px;
 	overflow: hidden;
 	margin-right: 1.5rem;
@@ -224,7 +224,7 @@ a {
 
 .hero_sec_content {
 	position: absolute;
-	top: 50%;
+	top: 60%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	max-width: 90rem;
@@ -262,7 +262,7 @@ a {
 }
 
 .hero_btn {
-	margin-top: 5rem;
+	margin-top: 10rem;
 	text-align: center;
 }
 
@@ -573,11 +573,12 @@ h2 {
 .footer-con {
 	display: flex;
 	justify-content: space-between;
-	padding: 8rem 0;
+	padding: 2.8rem 0;;
+	/* padding: 8rem 0; */
 }
 
 .footer-name {
-	font-size: 2.2rem;
+	font-size: 1.8rem;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
