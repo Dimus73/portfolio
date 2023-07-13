@@ -541,6 +541,7 @@ h2 {
 	letter-spacing: 0;
 	background: #f0f0f0;
 	/* border-radius: 5px; */
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.25);
 	font-weight: 600;
 }
 
@@ -560,4 +561,30 @@ h2 {
 
 .social-icon{
 	color: white;
+}
+
+
+/* Footer section */
+.footer {
+	background-color: black;
+	color: white;
+}
+
+.footer-con {
+	display: flex;
+	justify-content: space-between;
+	padding: 8rem 0;
+}
+
+.footer-name {
+	font-size: 2.2rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.footer-text {
+    margin-top: 2rem;
+    color: #eee;
+    font-size: 1.5rem;
+    line-height: 1.7;
 }
