@@ -555,12 +555,17 @@ h2 {
 	height: 100%;
 } 
 
+.social-icons-block{
+	display: inline-block;
+}
+
 .social-icon-block{
 	display: inline-block;
 	margin-left: 2rem;
 }
 
 .social-icon{
+	display: flex;
 	color: white;
 }
 
