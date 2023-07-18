@@ -213,7 +213,6 @@ a {
 
 .hero_sec {
 	color: #fff;
-	/* background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(./img/common-bg.svg); */
 	background-color: #1C3FC1;
 	background-position: center;
 	height: 100vh;
@@ -287,6 +286,48 @@ a {
 	border-radius: 5px;
 	box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
 }
+
+.home-hero__mouse-scroll-cont {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mouse {
+  width: 25px;
+  height: 40px;
+  border: 0px solid #eee;
+  border-radius: 60px;
+  position: relative;
+  overflow: hidden; 
+}
+  .mouse::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #eee;
+    border-radius: 50%;
+    opacity: 1;
+    animation: wheel 1.3s infinite;
+    -webkit-animation: wheel 1.3s infinite; 
+	}
+
+	@keyframes wheel {
+  to {
+    opacity: 0;
+    top: 27px; } 
+	}
+
+@-webkit-keyframes wheel {
+  to {
+    opacity: 0;
+    top: 27px; } 
+	}
 
 /* About section */
 
@@ -549,6 +590,17 @@ h2 {
 .bottom-form-cont {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 390px) {
+	.bottom-form-cont {
+		justify-content: center;
+	}
+
+	.bottom-form-cont button {
+		margin-bottom: 4rem;
+	}
 }
 
 .icon-sec {
