@@ -595,7 +595,7 @@ h2 {
 
 @media only screen and (max-width: 390px) {
 	.bottom-form-cont {
-		justify-content: center;
+		justify-content: space-between;
 	}
 
 	.bottom-form-cont button {
