@@ -32,7 +32,7 @@ for (let i = 0; i < headerSmallMenuLinks.length; i++) {
 const headerLogoContainer = document.querySelector('.base-menu-logo-cont')
 
 headerLogoContainer.addEventListener('click', () => {
-  location.href = './img/CV_Full Stack Developer_Dmitry Prigozhin_HR_col.pdf'
+  location.href = 'https://drive.google.com/file/d/1rjzoY5gO8nscVDv8nKzqp7OyhnwEXZ4_/view?usp=sharing'
 })
 ;
 
